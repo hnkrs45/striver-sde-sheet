@@ -19,7 +19,7 @@ class Solution{
 public class FindTheRepeatingAndMissingNumber {
     public static void main(String args[]){
         int arr[]={3,1,2,5,3};
-        Solution s=new Solution();
+        LinkedListCycle s=new LinkedListCycle();
         int ans[]=s.solve(arr);
         System.out.println("Duplicate: "+ ans[0] +" Missing: " + ans[1]);
     }
