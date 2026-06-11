@@ -1,4 +1,4 @@
-public class Solution {
+public class IntersectionOfTwoLinkedLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode curra=headA, currb=headB;
         while(curra!=currb){

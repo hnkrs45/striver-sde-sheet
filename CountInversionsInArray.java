@@ -46,7 +46,7 @@ class Solution {
 public class CountInversionsInArray {
     public static void main(String[] args){
         int[] a={5,4,3,2,1};
-        Solution s=new Solution();
+        IntersectionOfTwoLinkedLists s=new IntersectionOfTwoLinkedLists();
         int cnt = s.numberofinversions(a);
         System.out.println("The number of inversions are: " + cnt);
     }
